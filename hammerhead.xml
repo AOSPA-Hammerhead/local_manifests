@@ -6,7 +6,7 @@
   <project name="AOSPA-Hammerhead/android_vendor_pa" path="vendor/pa" remote="github" revision="oreo-mr1" />
   
   <!-- Hardware -->
-  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="AOSPA/android_hardware_libhardware" />
   <project name="AOSPA-Hammerhead/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="oreo-mr1" />
   
 </manifest>
