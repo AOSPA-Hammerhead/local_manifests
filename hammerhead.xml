@@ -2,9 +2,11 @@
 <manifest>
   
   <!-- Vendor -->
-  <remove-project name="platform/vendor/pa" />
+  <remove-project name="AOSPA/android_vendor_pa" />
   <project name="AOSPA-Hammerhead/android_vendor_pa" path="vendor/pa" remote="github" revision="oreo-mr1" />
   
   <!-- Hardware -->
   <remove-project name="platform/hardware/libhardware" />
   <project name="AOSPA-Hammerhead/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="oreo-mr1" />
+  
+</manifest>
