@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device -->
+  <project name="AOSPA-Hammerhead/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="oreo-mr1" />
+  <project name="AOSPA-Hammerhead/proprietary_vendor_lge_hammerhead" path="vendor/lge/hammerhead" remote="github" revision="oreo-mr1" />
+
+  <!-- Hardware -->
+  <project name="AOSPA-Hammerhead/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="oreo-mr1-aosp" />
+  
