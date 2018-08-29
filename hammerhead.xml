@@ -3,7 +3,9 @@
   
   <!-- Vendor -->
   <remove-project name="AOSPA/android_vendor_pa" />
-  <project name="AOSPA-Hammerhead/android_vendor_pa" path="vendor/pa" remote="github" revision="oreo-mr1" />
+  <project name="AOSPA-Hammerhead/android_vendor_pa" path="vendor/pa" remote="github" revision="oreo-mr1">
+        <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
   
   <!-- Hardware -->
   <remove-project name="AOSPA/android_hardware_libhardware" />
