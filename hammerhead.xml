@@ -7,4 +7,8 @@
         <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
   
+  <!-- System -->
+  <remove-project name="AOSPA/android_system_sepolicy" />
+  <project name="AOSPA-Hammerhead/android_system_sepolicy" path="system/sepolicy" remote="github" revision="oreo-mr1" />
+
 </manifest>
