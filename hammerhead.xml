@@ -7,8 +7,4 @@
         <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
   
-  <!-- Hardware -->
-  <remove-project name="AOSPA/android_hardware_libhardware" />
-  <project name="AOSPA-Hammerhead/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="oreo-mr1" />
-  
 </manifest>
