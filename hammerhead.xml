@@ -16,4 +16,6 @@
   <project name="LineageOS/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="github" revision="lineage-16.0" />
   <remove-project name="AOSPA/android_system_sepolicy" />
   <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" remote="github" revision="lineage-16.0" />
+  <remove-project name="AOSPA/android_system_core" />
+  <project path="system/core" name="AOSPA-Hammerhead/android_system_core" remote="github" revision="pie" />
 </manifest>
