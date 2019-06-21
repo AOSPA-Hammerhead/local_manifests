@@ -8,6 +8,8 @@
   </project>
   <remove-project name="AOSPA/android_bionic" />
   <project path="bionic" name="AOSPA-Hammerhead/android_bionic" remote="github" revision="pie" />
+  <remove-project name="platform/external/perfetto" />
+  <project path="external/perfetto" name="AOSPA-Hammerhead/android_external_perfetto" remote="github" revision="pie" />
   <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw" />
   <project name="AOSPA-Hammerhead/android_vendor_qcom-opensource_cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw" remote="github" revision="pie" />
   <project name="platform/vendor/qcom-opensource/display-commonsys-intf" path="vendor/qcom/opensource/display-commonsys-intf"/>
